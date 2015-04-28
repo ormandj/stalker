@@ -40,7 +40,7 @@ To setup a password via the command line make sure you have the rethinkdb python
 
 Setup stalker-web (stdeb built) and dependencies (you may wanna build in virtualenv):
 
-    sudo apt-get install redis-server gcc python-dev
+    sudo apt-get install redis-server gcc python-dev gunicorn
     git clone https://github.com/pandemicsyn/stalker.git
     cd stalker
     python setup.py --command-packages=stdeb.command bdist_deb
